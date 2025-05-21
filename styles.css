@@ -1,0 +1,141 @@
+*{
+    font-family: "Ubuntu";
+}
+html{
+    background-color: black;
+}
+body{
+    max-width: 50%;
+    margin:auto;
+    background-color:white;
+}
+.buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-right:20%;
+}
+.header {
+    background-color:rgb(224, 242, 247);
+    display: flex;
+    color: rgb(109, 108, 108);
+}
+.header-right i {
+    font-size: 1em;
+}
+.header-right p {
+    display: flex;
+    gap: 8px;
+    justify-content: right;
+}
+.header-left{
+    font-family: "Ubuntu";
+    font-weight: 400;
+    margin-left: 2.5%;
+    padding-bottom: 15px;
+}
+.header-right{
+    text-align:right;
+    margin-left:20%;
+    margin-right: 2.5%;
+    margin-top: 1%;
+    font-family: "Courier Prime" !important;
+    font-size: 90%;
+}
+.header-left h3 {
+    margin-top: 0px;
+    font-weight: 400;
+}
+.title {
+    color: black;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+h2 {
+    font-weight: 400;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(224, 242, 247);
+    align-items: center;
+    margin-top:8%;
+}
+footer h1{
+    font-weight: 400;
+    margin: 2.5%;
+}
+footer p{
+    margin: 2.5%;
+    color:rgb(109, 108, 108);
+}
+.content{
+    display:flex;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.content-left {
+text-align: left;
+}
+.button-style {
+    color:white;
+    background-color: rgb(77, 118, 194);
+    border-radius: 8%;
+    padding:6px;
+}
+.dates-left * {
+    display:flex;
+    flex-direction: column;
+}
+.dates-left {
+    padding-top: 1.5%;
+}
+.date p {
+    margin:0;
+    color:rgb(109, 108, 108);
+    font-size:small;
+    text-align:center;
+}
+h2 {
+    margin-top:8%;
+}
+h3 {
+    color:rgb(109, 108, 108);
+    letter-spacing: 2px;
+}
+.list-grey li {
+    color:rgb(109, 108, 108);
+    margin-bottom:1%;
+    max-width: 95%;
+    line-height: 1.3em;
+}
+.Education {
+    display:flex;
+    max-width: 95%;
+    margin-bottom: 5px;
+}
+.Education-right {
+    justify-content:flex-end;
+}
+.timeline > li{
+    margin-top:2%;
+    letter-spacing: 2px;
+    font-weight:bold;
+    color:black;
+}
+.timeline:last-child{
+   color: rgb(109, 108, 108);
+   line-height: 1.5em;
+}
+.blue {
+    display:flex;
+    justify-content:space-between;
+    color:rgb(62, 119, 224);
+}
+.timeline {
+    border-left: solid 1px grey;
+    padding-left:14px;
+    margin-left: 5%;
+}
+ul {
+    list-style-type: disc;
+}
